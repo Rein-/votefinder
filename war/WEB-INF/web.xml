@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  
+  <servlet>
+    <servlet-name>dataRequestService</servlet-name>
+    <servlet-class>com.google.gwt.votefinder.server.DataRequestServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dataRequestService</servlet-name>
+    <url-pattern>/votefinder/dataRequest</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>loginService</servlet-name>
+    <servlet-class>com.google.gwt.votefinder.server.LoginServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>loginService</servlet-name>
+    <url-pattern>/votefinder/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>votingPlaceService</servlet-name>
+    <servlet-class>com.google.gwt.votefinder.server.VotingPlaceServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>votingPlaceService</servlet-name>
+    <url-pattern>/votefinder/votingplace</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserListService</servlet-name>
+    <servlet-class>com.google.gwt.votefinder.server.UserListServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserListService</servlet-name>
+    <url-pattern>/votefinder/userlist</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Votefinder.html</welcome-file>
+  </welcome-file-list>
+ 
+ <!--   <filter>
+    <filter-name>_ah_DevSocketFilter</filter-name>
+    <filter-class>
+      com.google.appengine.api.socket.dev.DevSocketFilter
+    </filter-class>
+    <init-param>
+      <param-name>use-native-sockets</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>_ah_DevSocketFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping> -->
+
+</web-app>

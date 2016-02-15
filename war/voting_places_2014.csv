@@ -1,0 +1,91 @@
+VD,FACILITY_NAME,FACILITY_ADDRESS,LOCATION,LATITUDE,LONGITUDE,ADVANCE_ONLY,LOCAL_AREA
+A1,King George Secondary School,1755 Barclay St,Gymnasium (Denman St. Entrance),49.289821,-123.136675,No,West End
+A2,Lord Roberts Elementary School,1100 Bidwell St,Gymnasium,49.287066,-123.138234,No,West End
+A3,Gordon Neighbouhood House,1019 Broughton St,Conference Room,49.285433,-123.134106,No,West End
+A4,Best Western Sands Hotel,1755 Davie St,Capilano and Fraser Room,49.286857,-123.140821,No,West End
+A5,Vancouver Aquatic Centre,1050 Beach Ave,Top Landing,49.27683,-123.134853,No,West End
+A6,St Andrew's-Wesley United Church,1012 Nelson St,Salon,49.281436,-123.126608,No,West End
+A7,The Listel Hotel,1300 Robson St,Sculpture Gallery,49.287259,-123.129368,No,West End
+A8,Lord Roberts School Annex,1150 Nelson St,Gymnasium,49.283135,-123.129234,No,West End
+B1,Coal Harbour Community Centre,480 Broughton St,Multi-Purpose Room,49.290268,-123.126193,No,Downtown
+B2,Vancouver Public Library Central Branch,350 W Georgia St,Alice MacKay Room,49.280198,-123.114836,No,Downtown
+B3,Jubilee House,508 Helmcken St,Large Meeting Hall,49.276999,-123.122955,No,Downtown
+B4,Carnegie Centre,401 Main St,Theatre,49.281083,-123.100096,No,Downtown
+B5,Roundhouse Community Centre,181 Roundhouse Mews,Gym,49.273271,-123.122109,No,Downtown
+B6,International Village Mall,88 West Pender St,1st floor foyer,49.280531,-123.106911,No,Downtown
+B7,Vancouver Art Gallery,750 Hornby St,Workshop,49.283129,-123.120839,No,Downtown
+B8,Morris J Wosk Centre for Dialogue,580 W Hastings St,Room 420,49.284258,-123.112807,No,Downtown
+C1,Strathcona Community Centre,601 Keefer St,Seniors Activity Lounge,49.27979,-123.091529,No,Strathcona
+C2,Ray-Cam Co-operative Centre,920 E Hastings St,Gymnasium,49.280704,-123.084091,No,Strathcona
+D1,Sir William Macdonald Elementary School,1950 E Hastings St,Gymnasium,49.280659,-123.064304,No,Grandview-Woodland
+D2,Templeton Secondary School,727 Templeton Dr,Main Gymnasium,49.278542,-123.060066,No,Grandview-Woodland
+D3,Britannia Community Centre,1661 Napier St,Gymnasium D,49.27512,-123.07035,No,Grandview-Woodland
+D4,Queen Victoria School Annex,1850 E 3rd Ave,Gymnasium,49.267275,-123.066281,No,Grandview-Woodland
+D5,Grandview Elementary School,2055 Woodland Dr,Gymnasium,49.266456,-123.073943,No,Grandview-Woodland
+D6,Lord Nelson Elementary,2235 Kitchener St,Gymnasium,49.27243,-123.059163,No,Grandview-Woodland
+G1,Dr. George M. Weir Elementary School,2900 E 44th Ave,Gymnasium,49.229754,-123.044457,No,Killarney
+G3,Killarney Community Centre,6260 Killarney St,Gym,49.226706,-123.043981,No,Killarney
+J1,Gladstone Secondary School,4105 Gladstone St,Small Gymnasium,49.247946,-123.061316,No,Kensington-Cedar Cottage
+J3,Lord Selkirk School Annex,4444 Dumfries St,Activity Room,49.245249,-123.072786,No,Kensington-Cedar Cottage
+J4,McBride School Annex,4750 St. Catherines St,Gymnasium,49.241819,-123.085123,No,Kensington-Cedar Cottage
+J5,Lord Selkirk Elementary School,1750 E 22nd Ave,Gymnasium,49.249698,-123.068488,No,Kensington-Cedar Cottage
+J6,Trout Lake Community Centre,3360 Victoria Dr,Gymnasium,49.254621,-123.065382,No,Kensington-Cedar Cottage
+J7,Dickens School Annex,3877 Glen Dr,Gymnasium,49.250225,-123.082893,No,Kensington-Cedar Cottage
+J8,Ecole Laura Secord Elementary School,2500 Lakewood Dr,Gymnasium,49.261787,-123.061222,No,Kensington-Cedar Cottage
+K1,General Wolfe Elementary School,4251 Ontario St,Gymnasium,49.247245,-123.105217,No,Riley Park
+K2,David Livingstone Elementary School,315 E 23rd Ave,Gymnasium,49.250655,-123.097736,No,Riley Park
+K3,General Brock Elementary School,4860 Main St,Gymnasium,49.241504,-123.100791,No,Riley Park
+K4,Hillcrest Centre,4575 Clancy Loranger Way,Multi-Purpose Room,49.243602,-123.107329,No,Riley Park
+L1,Mount Pleasant Community Centre,1 Kingsway,Gym,49.264289,-123.100272,No,Mount Pleasant
+L2,Mount Pleasant Neighbourhood House,800 E Broadway,East & West Hall,49.262181,-123.086878,No,Mount Pleasant
+L3,Creekside Community Recreation Centre,1 Athletes Way,Gymnasium,49.271802,-123.105567,No,Mount Pleasant
+L4,Kivan Club,2875 St. George St,Gymnasium,49.258908,-123.09342,No,Mount Pleasant
+L5,St Patrick's Regional Secondary School,115 E 11th Ave,Lunchroom,49.261372,-123.102438,No,Mount Pleasant
+L6,Simon Fraser Elementary School,100 W 15th Ave,Gymnasium,49.257364,-123.10818,No,Mount Pleasant
+M1,Vancouver Masonic Centre,1495 W 8th Ave,Lobby,49.264644,-123.137412,No,Fairview
+M2,False Creek Elementary School,900 School Green,Gymnasium,49.267111,-123.126727,No,Fairview
+M3,St. Mary's Ukrainian Catholic Centre,3150 Ash St,Boardroom Hall,49.257167,-123.11798,No,Fairview
+M4,Holiday Inn,711 W Broadway,Ballroom,49.263538,-123.120145,No,Fairview
+M5,False Creek Community Centre,1318 Cartwright St,Lind Hall,49.269325,-123.134236,No,Fairview
+M6,Fairview Presbyterian Church,2725 Fir St,Main Lounge,49.261452,-123.141253,No,Fairview
+N1,Emily Carr Elementary School,4070 Oak St,Gymnasium,49.249707,-123.127369,No,South Cambie
+N2,Douglas Park Community Centre,801 W 22nd Ave,Auditorium,49.251721,-123.122572,No,South Cambie
+N3,Eric Hamber Secondary School,5025 Willow St  ,Gymnasium,49.239904,-123.125085,No,South Cambie
+O1,Shaughnessy Elementary School,4250 Marguerite St,Gymnasium,49.248474,-123.143656,No,Shaughnessy
+O2,Redeemer Lutheran Church,1499 Laurier Ave,Parish Hall,49.251185,-123.138544,No,Shaughnessy
+O3,Point Grey Secondary School,5350 East Boulevard,Cafeteria,49.237331,-123.153583,No,Shaughnessy
+P1,Trinity Baptist Church,1460 W 49th Ave,Gymnasium,49.226391,-123.13904,No,Oakridge
+P2,Sir William Van Horne Elementary School,5855 Ontario St,Gymnasium,49.231809,-123.106408,No,Oakridge
+P4,Oakridge Centre,650 W 41st Ave,Auditorium,49.2326269,-123.118011,No,Oakridge
+Q1,Marpole United Church,1296 W 67th Ave,Sanctuary,49.2106809,-123.133906,No,Marpole
+Q3,Marpole Community Centre,990 West 59th,Gymnasium,49.216778,-123.128694,No,Marpole
+R1,Dr. R. E. McKechnie Elementary School,7455 Maple St,Gymnasium,49.217694,-123.152935,No,Kerrisdale
+R2,Kerrisdale School Annex,3250 W 43rd Ave,West Hall,49.233521,-123.178416,No,Kerrisdale
+R3,Kerrisdale Community Centre,5851 West Boulevard,Gym,49.233167,-123.156248,No,Kerrisdale
+R4,Maple Grove Elementary School,6199 Cypress St,Gymnasium,49.229919,-123.150145,No,Kerrisdale
+S1,Carnarvon Community Elementary School,3400 Balaclava St,Activity Room,49.25645,-123.174245,No,Arbutus-Ridge
+S2,Trafalgar Elementary School,4170 Trafalgar St,Gymnasium,49.24963,-123.164273,No,Arbutus-Ridge
+S3,Prince of Wales Secondary,  2250 Eddington Dr  ,Gymnasium,49.245497,-123.158403,No,Arbutus-Ridge
+T1,Kitsilano Community Centre,2690 Larch St,Gym,49.261493,-123.162047,No,Kitsilano
+T2,Redemption Church,3512 W 7th Ave,Sanctuary,49.265793,-123.182073,No,Kitsilano
+T3,Museum of Vancouver,1100  Chestnut St,Joyce Walley Learning Centre,49.276155,-123.144162,No,Kitsilano
+T4,Henry Hudson Elementary School,1551 Cypress St,Gymnasium,49.272059,-123.148267,No,Kitsilano
+T5,St. Mark's Anglican Church - Sanctuary,1805 Larch St,Sanctuary,49.269813,-123.162633,No,Kitsilano
+T6,Canadian Memorial United Church and Centre for Peace,1825 W 16th ave,Great Hall,49.257472,-123.14669,No,Kitsilano
+T7,St Augustine's School,2145 W 8th Ave,Gymnasium,49.265087,-123.15081,No,Kitsilano
+T8,Lord Tennyson Elementary,1936 W 10 Ave,Gym,49.262335,-123.149034,No,Kitsilano
+U1,Lord Byng Secondary School,3939 W 16th Ave,Girls Gymnasium,49.258221,-123.192357,No,West Point Grey
+U2,West Point Grey Community Centre,4397 W 2nd Ave,Gymnasium,49.271714,-123.204589,No,West Point Grey
+U3,St. Helen's Anglican Church,4405 W 8th St,Parish Hall,49.265918,-123.206176,No,West Point Grey
+UEL 1,University Hill Secondary School,3228 Ross Drive. E Mall,Gymnasium,49.254186,-123.238903,No,
+UEL 2,Carey Theological College,5920 Iona Drive,Media Room,49.271373,-123.249602,No,
+V1,Dunbar Community Centre,4747 Dunbar St,Room 006,49.243818,-123.185381,No,Dunbar-Southlands
+V2,"Queen, Elizabeth, Elementary ,School",4102 W 16th Ave,Auditorium,49.257959,-123.197666,No,Dunbar-Southlands
+V3,Lord Kitchener Elementary School,3455 W King Edward Ave,Room 158,49.2504842,-123.180285,No,Dunbar-Southlands
+V4,Southlands Elementary School,5351 Camosun St,Gymnasium,49.238077,-123.197729,No,Dunbar-Southlands
+ADV A,Advance A - West End Community Centre,870 Denman Street,Auditorium,49.290348,-123.136741,Yes,West End
+ADV B,Advance B - Roundhouse Community Centre,181 Roundhouse Mews,Gym,49.273271,-123.122139,No,Downtown
+ADV E,Advance E - Killarney Community Centre,6260 Killarney St,Gym,49.226706,-123.044,No,Killarney
+ADV F,Advance F - Kerrisdale Community Centre,5851 West Boulevard,Gym,49.233167,-123.156278,No,Kerrisdale
+ADV G,Advance G - Kitsilano Community Centre,2690 Larch St,Gym,49.261493,-123.162077,No,Kitsilano
+ADV H,Advance H - City Hall,453 W 12th Ave,Townhall Meeting Room (1st floor),49.260728,-123.113937,Yes,Mount Pleasant

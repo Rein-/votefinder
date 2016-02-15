@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link type="text/css" rel="stylesheet" href="Votefinder.css">
+		<title>voteFinder</title>
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<script type="text/javascript" language="javascript"
+			src="votefinder/votefinder.nocache.js"></script>
+			 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+			 <script>
+			 	$(function(){
+			 		$("#nearList span").click(function(){
+			 			$("#nearList").css("display","none");
+			 		});
+			 	});
+			 	function fbShare(url, title, descr, image, winWidth, winHeight) {
+			        var winTop = (screen.height / 2) - (winHeight / 2);
+			        var winLeft = (screen.width / 2) - (winWidth / 2);
+			        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width='+winWidth+',height='+winHeight);
+			    }
+			 </script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=228281667325152&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<div id="head">
+			<div id="logo">
+				<img src="img/logo.png" style="width:70px;vertical-align:middle;"> VoteFinder
+			</div>
+			<a class="icon-facebook" id="fb-share" href="javascript:fbShare('http://myvotefinder.appspot.com/', 'VoteFinder', 'The best way to find your polling station!', 'http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2010/5/20/1274373666114/polling-station-005.jpg', 520, 350)"></a>
+			<div id="admin"></div>
+			<div id="login"></div>
+		</div>
+		
+		<div id="searchBar"></div>
+		<div id="userList"></div>
+		<div id="nearList"><span><i class="fa fa-times"></i></span></div>
+		<div id="map"></div>
+		
+	</body>
+</html>

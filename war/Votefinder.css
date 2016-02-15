@@ -1,0 +1,348 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+body{
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #777777;
+	text-align: center;
+}
+
+.infoWindow {
+	padding: 20px;
+}
+.infoWindow p {
+	line-height:8px;
+}
+.longNameColumn{
+	width: 12em;
+	text-align: center;
+}
+.removeColumn{
+	text-align:center;
+}
+#login{
+	position:absolute;
+	z-index:2;
+	right:10px;
+	top:25px;
+}
+#login .gwt-Anchor{
+	background: white;
+	padding:10px;
+	border-radius:10px;
+	-moz-border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-o-border-radius:0 10px 10px 0;
+	border:0 none;
+	width:80px;
+	color: gray;
+	text-align:center !important;
+}
+#admin {
+	position:absolute;
+	z-index:2;
+	right:10px;
+	top:25px;
+}
+#admin .gwt-Anchor {
+	background: white;
+	padding:10px;
+	border-radius:0 10px 10px 0;
+	-moz-border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-o-border-radius:0 10px 10px 0;
+	border:0 none;
+	width:250px;
+	color: gray;
+}
+#admin button {
+	background:#57CB8D;
+	color:white;
+	font: 'trebuchet ms', trebuchet;
+	padding:10px 20px;
+	border-radius:10px 0 0 10px;
+	-moz-border-radius:10px 0 0 10px;
+	-webkit-border-radius:10px 0 0 10px;
+	-o-border-radius:10px 0 0 10px;
+	border:0 none;
+	font-weight:bold;
+	margin-top:-15px;
+}
+#head {
+	width:100%;
+	margin:0;
+	min-height:76px;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	background:rgba(150,150,150,0.5);
+}
+#head #logo {
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	margin-left:20px;
+	position:absolute;
+	z-index:5;
+	top:3px;
+}
+#searchBar {
+	width:50%;
+	position:absolute;
+	top: 112px;
+	left: 100px;
+	z-index:2;
+}
+#searchBar input {
+	background: white;
+	padding:10px;
+	border-radius:10px 0 0 10px;
+	-moz-border-radius:10px 0 0 10px;
+	-webkit-border-radius:10px 0 0 10px;
+	-o-border-radius:10px 0 0 10px;
+	border:0 none;
+	width:298px;
+}
+#searchBar button {
+	background:#57CB8D;
+	color:white;
+	font: 'trebuchet ms', trebuchet;
+	padding:10px 20px;
+	border-radius:0 10px 10px 0;
+	-moz-border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-o-border-radius:0 10px 10px 0;
+	border:0 none;
+	font-weight:bold;
+	
+}
+#map {
+	width:100%;
+	background:#EEEEEE;
+	margin: 0;
+	height:100vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	float:left;
+}
+#map > * {
+	height:100vh;
+	min-height:800px;
+}
+#map .gwt-Button {
+	color: #fff;
+    padding: 8px 14px 10px !important;
+    background-color: #bc1815;
+    border: none !important;
+    position: relative;
+    -webkit-user-select: none;
+    -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px -3px 1px rgba(0,0,0,0.45), 0px 2px 2px rgba(0,0,0,0.25);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5) !important;
+    background: #57CB8D !important;
+  	margin-left:5px !important;
+}
+.gm-style > div:last-child, .gm-style > div:nth-last-child(2), .gm-style > div:nth-last-child(3){
+	margin-top:100px !important;
+}
+#userList {
+	width:400px;
+	position:absolute;
+	z-index:4;
+	top:170px;
+	left:100px;
+	max-height:500px;
+	overflow-y:auto;
+}
+
+.userListTable {
+	border-radius:10px;
+	display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+  border-collapse: collapse;
+}
+.userListTable tr td{
+	border:none;
+}
+.userListTable tr:first-child td{
+	background-color: #57CB8D;
+    color: white;
+    font-weight: normal;
+    padding: 10px 30px;
+    text-align: center;
+}
+.userListTable tr:not(:first-child) td {
+	background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+}
+.gwt-Button-remove {
+    color: #fff;
+    padding: 8px 14px 10px !important;
+    background-color: #bc1815;
+    border: none !important;
+    position: relative;
+    -webkit-user-select: none;
+    -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px -3px 1px rgba(0,0,0,0.45), 0px 2px 2px rgba(0,0,0,0.25);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5) !important;
+    background: #57CB8D !important;
+}
+.gwt-Button-view{
+	color: #fff;
+    padding: 8px 14px 10px !important;
+    background-color: #bc1815;
+    border: none !important;
+    position: relative;
+    -webkit-user-select: none;
+    -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px -3px 1px rgba(0,0,0,0.45), 0px 2px 2px rgba(0,0,0,0.25);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5) !important;
+    background: #57CB8D !important;
+}
+
+#nearList {
+	width:60%;
+	position:absolute;
+	z-index:4;
+	bottom:0px;
+	right:0;
+	display:none;
+}
+#nearList span {
+	position:absolute;
+	top:5px;
+	left:35px;
+	color: rgba(255,255,255,0.7);
+	cursor:pointer;
+}
+#nearList table {
+	width:95%;
+	display:table;
+	margin:0 auto 5px auto;
+}
+.nearListTable tbody tr:first-child td:first-child {
+	border-top-left-radius:10px;
+}
+.nearListTable tbody tr:first-child td:last-child {
+	border-top-right-radius:10px;
+}
+.nearListTable tbody tr:last-child td:first-child {
+	border-bottom-left-radius:10px;
+}
+.nearListTable tbody tr:last-child td:last-child {
+	border-bottom-right-radius:10px;
+}
+.nearListTable tbody tr td:last-child {
+	text-align:center;
+}
+.nearListTable {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+  border-collapse: collapse;
+}
+.nearListTable tr td{
+	border:none;
+}
+.nearListTable tr:first-child td{
+	background-color: #57CB8D;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0;
+}
+.nearListTable tr:not(:first-child) td {
+	background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 5px 0;
+}
+
+.fb-share-button {
+	position:absolute;
+	float:right;
+	right:200px;
+	top:25px;
+	z-index:5;
+}
+
+.icon-facebook {
+	position:absolute;
+	float:right;
+	right:200px;
+	top:15px;
+	overflow:hidden;
+	border-radius:10px;
+	z-index:5;
+	color:white;
+	background: none repeat scroll 0% 0% #3B5998;
+	border-left: medium none;
+	color: #FFF;
+	padding: 1em;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.15s ease 0s;
+	font-family: "entypo";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+.icon-facebook:hover {
+	color:white;
+	text-decoration:none;
+}
+.icon-facebook:focus {
+	color:white;
+	text-decoration:none;
+}
+.icon-facebook:visited {
+	color:white;
+	text-decoration:none;
+}
+.icon-facebook:before {
+    content: "\e6f9";
+}
